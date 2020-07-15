@@ -22,7 +22,12 @@ var users = [{
     {
         username: "amanv",
         password: "amanv1"
+    },
+    {
+        username: "rahul",
+        password: "rahul"
     }
+
 
 ]
 
@@ -55,10 +60,12 @@ function handlelogin() {
         }
 
     })
-    var date = new Date
+    var date = new Date().toDateString()
+    var Time = new Date().toLocaleTimeString()
     var payload = {
         username: user,
-        date: date
+        date: date,
+        time: Time
     }
     if (flag) {
         localStorage.setItem('username', JSON.stringify(payload))
