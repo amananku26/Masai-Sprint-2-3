@@ -66,7 +66,8 @@ function handlelogin() {
     } else if (adm) {
         location.href = "admin.html"
     } else {
-        alert("invalid user")
+        var error = document.getElementById('error')
+        error.innerHTML = "Wrong Username Or PassWord"
     }
 
     allUserInfo(payload)
