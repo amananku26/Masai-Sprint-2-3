@@ -1,0 +1,22 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.image {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/12/22/14/background-2846206_960_720.jpg);
+}
+
+.border {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    border: none;
+}
+
+.width {
+    width: 100%;
+}
+
+@media (max-width:629px) {
+    image {
+        display: none;
+    }
+}
