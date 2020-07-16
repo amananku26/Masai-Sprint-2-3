@@ -16,3 +16,7 @@ function handlelogout() {
 function covid() {
     location.href = 'covid-19.html'
 }
+
+function coin() {
+    location.href = 'coin.html'
+}

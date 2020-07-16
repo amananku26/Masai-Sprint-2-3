@@ -1,0 +1,11 @@
+
+    <hr>
+    <div class="container">
+        <div>
+            Username:
+            <input type="text" id="username" placeholder="username" /> <br> password:
+            <input type="password" placeholder="password" id="password" /><br>
+            <button id="submit">LOGIN</button>
+        </div>
+    </div>
+    <hr>
